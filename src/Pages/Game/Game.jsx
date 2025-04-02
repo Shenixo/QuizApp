@@ -33,7 +33,7 @@ const Game = () => {
                 isDarkMode ? "text-white" : "text-primary"
               } transition-all duration-500 ease-in-out  text-[2.8rem] sm:text-[3.5rem font-bold`}
             >
-              Frontend Quiz!
+              Game of Questions!
             </h1>
 
             <p className="text-[#626c7f] text-2xl mt-12">

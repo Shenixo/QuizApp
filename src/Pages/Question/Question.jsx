@@ -110,7 +110,7 @@ const options = [
               {questionToDisplay.question?.text}
             </h1>
             <div className="mt-[10%]  min-h-[130px] lg:min-h-[350px] flex flex-col justify-between">
-            <Button className= "max-w-max  p-[.5rem] px-3 font-semibold text-[1.2rem]  rounded-[.3rem] " onClick={() => handleSubmitNextQuestion("+")}>Next <FontAwesomeIcon icon={faAnglesRight} className="text-[1.2rem]" /></Button>
+            <Button className= "max-w-max  p-[.5rem] px-3 font-semibold text-[1.2rem]  rounded-[.2rem] " onClick={() => handleSubmitNextQuestion("+")}>Next <FontAwesomeIcon icon={faAnglesRight} className="text-[1.2rem]" /></Button>
             <div className="w-full overflow-hidden rounded-full bg-gray-300 flex ">
   <progress
     className="w-full h-3 appearance-none [&::-webkit-progress-bar]:bg-transparent [&::-webkit-progress-value]:bg-[#a729f5] [&::-webkit-progress-value]:rounded-full [&::-moz-progress-bar]:bg-[#a729f5] rounded-full"
