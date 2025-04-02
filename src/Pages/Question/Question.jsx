@@ -127,7 +127,7 @@ const options = [
             <QuestionOptions ref={submitRef} shuffledOptions={shuffledOptions} correctAnswer={questionToDisplay.correctAnswer}/>
             <div className="mb-16" />
             <Button
-            className="p-6"
+            className="p-6 rounded-[1rem]"
              disabled={option.selectedOptionIndex === null}
              onClick={() => {
               if (submitRef.current)submitRef.current.submit()
