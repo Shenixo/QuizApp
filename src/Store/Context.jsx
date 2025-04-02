@@ -41,7 +41,7 @@ const Context = ({ children }) => {
   const { data, isLoading, isError } = useQuery({
     queryKey: ["questions"],
     queryFn: fetchData,
-    refetchInterval: questions.length < 250 ? 200 : false,
+    refetchInterval: questions.length < 250 ? 2100 : false,
     enabled: questions.length < 250,
   });
   React.useEffect(() => {
