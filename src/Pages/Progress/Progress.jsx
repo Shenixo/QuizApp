@@ -28,7 +28,7 @@ const Progress = () => {
     <div className="flex items-center justify-center w-full h-screen bg-black">
       <div className="relative font-bold">
         <motion.h1
-          className="absolute inset-0 bg-gradient-to-r bg-[#f6483e] bg-clip-text text-transparent font-start font-bold  sm:text-[5.5rem] lg:text-[10rem] "
+          className="absolute inset-0 bg-gradient-to-r bg-[#f6483e] bg-clip-text text-transparent font-start font-bold  text-[5.3rem] lg:text-[10rem] "
           initial={{ width: 0 }}
           animate={{ width: `${count}%` }}
           transition={{
@@ -43,7 +43,7 @@ const Progress = () => {
         >
           LOADING...
         </motion.h1>
-        <h1 className="text-[#3c3c3c] font-bold font-start sm:text-[5.5rem] lg:text-[10rem]   ">LOADING...</h1>
+        <h1 className="text-[#3c3c3c] font-bold font-start text text-[5.3rem] lg:text-[10rem]   ">LOADING...</h1>
       </div>
     </div>
   );
