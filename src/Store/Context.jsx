@@ -13,7 +13,7 @@ const AppContext = React.createContext({
 });
 
 const Context = ({ children }) => {
-  const [isDarkMode, setIsDarkMode] = React.useState(true);
+  const [isDarkMode, setIsDarkMode] = React.useState(false);
   const [category, setCategory] = React.useState([])
   const toggleTheme = () => {
     setIsDarkMode((prev) => !prev);
